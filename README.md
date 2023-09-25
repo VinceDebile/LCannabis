@@ -16,7 +16,7 @@ File Extraction and Set Up: These instructions will generate results for the 99 
 Open the “indoor_cannabis_all_locations_VDB.m” file through Matlab and run. As is, this file will run all 99 canadian locations and print results to an Excel File titled "Outputs.xlsx." The "Outputs.xlsx" file will be generated in the root folder where the "indoor_cannabis_all_location_VDBs.m" is located. Printed in the file are TMY3 file name, city name, state, greenhouse gas emissions (kg CO2-eq/kg- dried flower), electricity (kWh/kg-dried flower), natural gas required (MJ/kg-dried flower) and CO2 fottprint of 37 additional parameters from the "Indoor_Model_Facility_LCAv5_VDB" for all locations. "Outputs from VDB manuscript.xlsx" is provided as a guide for validation and data extraction from the code output found in "Output.xlsx" after the code ran completely. These are the results generated from the original analysis for all 99 canadian locations. Data from natural gas (NG) and electricity (kWh) consumption were used as inputs in a OpenLCA model.
 
 • Supporting Files
-
+Supplemental LCI.xlsx - Worksheet for calculation of needed input/FU
 Indoor_Model_Facility_LCAv5_VDB - Matlab function that is the indoor cannabis growth model, performs all material and energy inventory calculations, runs for each location, more info in the commented header of this file
 Indoor Cannabis Model.xlsx - primary data file that Matlab reads from for input variables
 Psychrometricsnew.m - Matlab function that returns any property from a psychrometric chart, required two variables to fix state and a pressure
